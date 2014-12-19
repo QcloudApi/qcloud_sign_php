@@ -37,7 +37,6 @@ class QcloudApiRequest
 
     public static function SendRequest($paramArray, $secretId, $secretKey,
         $requestMethod = 'POST', $requestHost = YUNAPI_URL,
-        //'v2001.yunapi.qcloud.com',
         $requestPath = '/v2/index.php', $https = true)
     {
         if(!isset($paramArray['SecretId']))
